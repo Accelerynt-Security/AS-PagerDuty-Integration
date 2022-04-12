@@ -4,14 +4,8 @@ Author: Accelerynt
 
 For any technical questions, please contact info@accelerynt.com  
 
-
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-PagerDuty-Integration%2Fmain%2Fazuredeploy.json" target="_blank">
-    <img src="https://aka.ms/deploytoazurebutton""/>
-</a>
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-PagerDuty-Integration%2Fmain%2Fazuredeploy.json" target="_blank">
-<img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazuregov.png"/>
-</a>
-
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FAzure-Sentinel%2Fmaster%2FPlaybooks%2FAS-PagerDuty-Integration%2Fazuredeploy.json)
+[![Deploy to Azure Gov](https://aka.ms/deploytoazuregovbutton)](https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FAzure-Sentinel%2Fmaster%2FPlaybooks%2FAS-PagerDuty-Integration%2Fazuredeploy.json)       
 
 This playbook is intended to be run from a Microsoft Sentinel incident. It will create a PagerDuty event with the related Microsoft Sentinel incident and entity information.
                                                                                                                                      
@@ -30,7 +24,7 @@ The following items are required under the template settings during deployment:
                                                                                                                                      
 To Create a PagerDuty Integration Key:
  
-Log into your PagerDuty account and under the "**Services**" menu option, select "**Service Directory**". From the page, click the "**New Service**" button.
+Log into your PagerDuty account at https://app.pagerduty.com/. Under the "**Services**" menu option, select "**Service Directory**". From the page, click the "**New Service**" button.
  
 ![PagerDuty_Create_Integration_Key_1](Images/PagerDuty_Create_Integration_Key_1.png)
 
@@ -40,10 +34,12 @@ Add a Name and optional Description like the following:
 ![PagerDuty_Create_Integration_Key_2](Images/PagerDuty_Create_Integration_Key_2.png)              
                                                                                        
                                                                                          
-Select an escalation policy for your service.
+Select an escalation policy for your service. In this example, the default is used.
 
 ![PagerDuty_Create_Integration_Key_3](Images/PagerDuty_Create_Integration_Key_3.png)
 
+
+There may be a step to select a noise reduction option for your service. The "**Intelligent**" option is reccomended.
                                                                                            
 Finally, select the Microsoft Azure option under the Integrations section, then click "**Create Service**".
 
@@ -64,14 +60,10 @@ Open your browser and ensure you are logged into your Microsoft Sentinel workspa
 
 https://github.com/Accelerynt-Security/AS-PagerDuty-Integration
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-PagerDuty-Integration%2Fmain%2Fazuredeploy.json" target="_blank">
-    <img src="https://aka.ms/deploytoazurebutton""/>
-</a>
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-PagerDuty-Integration%2Fmain%2Fazuredeploy.json" target="_blank">
-<img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazuregov.png"/>
-</a>                                                 
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FAzure-Sentinel%2Fmaster%2FPlaybooks%2FAS-PagerDuty-Integration%2Fazuredeploy.json)
+[![Deploy to Azure Gov](https://aka.ms/deploytoazuregovbutton)](https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FAzure-Sentinel%2Fmaster%2FPlaybooks%2FAS-PagerDuty-Integration%2Fazuredeploy.json)                                             
 
-From there, click the “**Deploy to Azure**” button at the bottom and it will bring you to the custom deployment template.
+Click the “**Deploy to Azure**” button at the bottom and it will bring you to the custom deployment template.
 
 In the **Project Details** section:
 
