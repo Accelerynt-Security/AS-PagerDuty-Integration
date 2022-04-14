@@ -4,8 +4,8 @@ Author: Accelerynt
 
 For any technical questions, please contact info@accelerynt.com  
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FAzure-Sentinel%2Fmaster%2FPlaybooks%2FAS-PagerDuty-Integration%2Fazuredeploy.json)
-[![Deploy to Azure Gov](https://aka.ms/deploytoazuregovbutton)](https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FAzure-Sentinel%2Fmaster%2FPlaybooks%2FAS-PagerDuty-Integration%2Fazuredeploy.json)       
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-PagerDuty-Integration%2Fmain%2Fazuredeploy.json)
+[![Deploy to Azure Gov](https://aka.ms/deploytoazuregovbutton)](https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-PagerDuty-Integration%2Fmain%2Fazuredeploy.json)       
 
 This playbook is intended to be run from a Microsoft Sentinel incident. It will create a PagerDuty event with the related Microsoft Sentinel incident and entity information.
                                                                                                                                      
@@ -60,8 +60,8 @@ Open your browser and ensure you are logged into your Microsoft Sentinel workspa
 
 https://github.com/Accelerynt-Security/AS-PagerDuty-Integration
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FAzure-Sentinel%2Fmaster%2FPlaybooks%2FAS-PagerDuty-Integration%2Fazuredeploy.json)
-[![Deploy to Azure Gov](https://aka.ms/deploytoazuregovbutton)](https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FAzure-Sentinel%2Fmaster%2FPlaybooks%2FAS-PagerDuty-Integration%2Fazuredeploy.json)                                             
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-PagerDuty-Integration%2Fmain%2Fazuredeploy.json)
+[![Deploy to Azure Gov](https://aka.ms/deploytoazuregovbutton)](https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-PagerDuty-Integration%2Fmain%2Fazuredeploy.json)                                             
 
 Click the “**Deploy to Azure**” button at the bottom and it will bring you to the custom deployment template.
 
