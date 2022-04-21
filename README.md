@@ -96,14 +96,13 @@ The first step labeled "**Connections**" uses a connection created during the de
 
 ![PagerDuty_Deploy_5](Images/PagerDuty_Deploy_5.png)
 
-To validate the connection created for this playbook connection, expand the "**Connections**" step and click the exclamation point icon next to the name matching the playbook.
+To validate the connection created for this playbook, expand the "**Connections**" step and click the exclamation point icon next to the name matching the playbook.
                                                                                                 
 ![PagerDuty_Deploy_6](Images/PagerDuty_Deploy_6.png)
 
 When prompted, sign in to validate the connection.                                                                                                
                                                                                                 
-![PagerDuty_Deploy_7](Images/PagerDuty_Deploy_7.png)                                                                                                                             
-                                                                                                                             
+![PagerDuty_Deploy_7](Images/PagerDuty_Deploy_7.png)                                                                                                                                                                                                                                                   
 Once the connection step has been updated, click the "**Save**" button.
 
 ![PagerDuty_Deploy_8](Images/PagerDuty_Deploy_8.png)  
