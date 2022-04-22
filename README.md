@@ -41,7 +41,7 @@ Select an escalation policy for your service. In this example, the default is us
 
 There may be a step to select a noise reduction option for your service. The "**Intelligent**" option is reccomended.
                                                                                            
-Finally, select the Microsoft Azure option under the Integrations section, then click "**Create Service**".
+Finally, select the Microsoft Sentinel option under the Integrations section, then click "**Create Service**".
 
 ![PagerDuty_Create_Integration_Key_4](Images/PagerDuty_Create_Integration_Key_4.png)
 
